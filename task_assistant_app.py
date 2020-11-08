@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import openai; openai.api_key = "sk-w0wjYznY3lj2tn8m5SI18BBXFq6AtqHUEhDKIdFw"
+import openai; openai.api_key = "sssk-w0wjYznY3lj2tn8m5SI18BBXFq6AtqHUEhDKIdFwww"
 
 """
 # aarzoo
