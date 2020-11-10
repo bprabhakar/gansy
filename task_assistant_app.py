@@ -43,9 +43,9 @@ def wit_ai_parser(text):
     )
     raw_pred = wit_resp.json().get("entities", {})
     response = {
+        "What": "?",
         "Who": "?",
-        "When": "?",
-        "What": "?"
+        "When": "?"
     }
     for entity_key, entity_vals in raw_pred.items():
         max_score = 0
